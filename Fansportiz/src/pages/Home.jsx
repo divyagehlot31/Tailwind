@@ -6,7 +6,7 @@ import Offer from "../components/Offer";
 import Platform from "../components/Platform";
 import Contact1 from "../components/Contact1";
 import Faq from "../components/Faq";
-import Contact2 from "../components/Contact2.JSX";
+import Contact2 from "../components/Contact2.jsx";
 import Footer from "../components/Footer";
 import Serve from "../components/Serve";
 
