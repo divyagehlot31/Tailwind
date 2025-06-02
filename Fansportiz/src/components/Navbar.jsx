@@ -17,7 +17,7 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="bg-white sticky top-0 ">
+    <div className="bg-white sticky top-0 z-50 ">
       <header className="inset-x-0 top-0 z-50">
         <nav
           aria-label="Global"
@@ -55,7 +55,7 @@ export default function Example() {
                 key={item.name}
                 href={item.href}
                 // className="text-sm/6 font-semibold text-gray-900"
-                className=" lg:text-[15px] xl:text-[22px] leading-[36px] font-[600] text-primary capitalize font-inter"
+                className=" lg:text-[15px] xl:text-[22px] leading-[36px] font-[600] text-primary capitalize font-inter hover:text-blue-800"
               >
                 {item.name}
               </a>
@@ -64,7 +64,7 @@ export default function Example() {
           <div className="hidden lg:flex lg:flex-1 lg:justify-end"> */}
             <a
               href="#"
-              className="text-white bg-primary font-[700] uppercase text-[22px] px-10 py-4 rounded shadow-md font-inter"
+              className="text-white bg-primary font-[700] uppercase text-[22px] px-10 py-4 rounded shadow-md font-inter hover:bg-white hover:text-primary hover:border "
 
               // className="text-sm/6 font-semibold text-gray-900"
             >
