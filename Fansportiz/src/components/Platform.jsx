@@ -34,7 +34,7 @@ const Platform = () => {
         className="absolute z-40 w-[270px] h-[284px] bottom-[0px] right-[0px]"
       />
 
-      <div className="max-w-[1320] mx-auto text-center">
+      <div className="max-w-[1320px] mx-auto text-center">
         <h2 className="md:text-[64px] text-5xl font-[400] text-primary font-jersey uppercase">
           PLATFORM EXCLUSIVITY
         </h2>
