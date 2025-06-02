@@ -6,9 +6,10 @@ import Offer from "../components/Offer";
 import Platform from "../components/Platform";
 import Contact1 from "../components/Contact1";
 import Faq from "../components/Faq";
-import Contact2 from "../components/Contact2.jsx";
+// import Contact2 from "../components/Contact2.jsx";
 import Footer from "../components/Footer";
 import Serve from "../components/Serve";
+import Contact2 from "../components/Contact2-copy";
 
 function Home() {
   return (
@@ -21,7 +22,8 @@ function Home() {
       <Platform />
       <Contact1 />
       <Faq />
-      <Contact2 />
+<Contact2/>
+      {/* <Contact2 /> */}
       <Footer />
     </>
   );
